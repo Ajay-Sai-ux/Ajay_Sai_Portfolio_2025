@@ -6,18 +6,11 @@
   width: 100%;
 }
 
-@media (max-width: 480px) {
-    .projectHeader {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    }
-}
-
 .projectHeader {
   display: flex;
   gap: 24px;
   width: 100%;
+  align-items: center;
 }
 
 .projectTitleGroup {
@@ -75,4 +68,14 @@
   left: 50%;
   transform: translateX(-50%);
   object-fit: cover;
+}
+
+
+
+@media (max-width: 720px) {
+    .projectHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
 }
