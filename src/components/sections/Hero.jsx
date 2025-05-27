@@ -17,7 +17,7 @@ const Hero = () => {
         <div className={styles.textContent}>
           <h1 className={styles.title}>
             <span className={styles.primaryText}>I’m Ajay Sai — </span>
-            <i>product designer at</i>
+            <i>product designer at </i>
             <br className={styles.break} />
             <span className={styles.primaryText}>Worktual.</span>
             <span className={styles.accentGreen}> ✦ </span>

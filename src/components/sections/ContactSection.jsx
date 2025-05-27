@@ -8,10 +8,10 @@ const ContactSection = () => {
           Want to get in touch? I’d love to connect with you!
         </h2>
         <div className={styles.contactLinks}>
-          <a href="mailto:youremail@example.com" className={styles.link}>Email →</a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" className={styles.link}>LinkedIn →</a>
-          <a href="https://instagram.com/yourprofile" target="_blank" className={styles.link}>Instagram →</a>
-          <a href="https://medium.com/@yourprofile" target="_blank" className={styles.link}>Medium →</a>
+          <a href="mailto:ajaysaiux@gmail.com" className={styles.link}>Email →</a>
+          <a href="https://linkedin.com/in/ajaysai-ux" target="_blank" className={styles.link}>LinkedIn →</a>
+          <a href="https://instagram.com/ajay_sai_b" target="_blank" className={styles.link}>Instagram →</a>
+          <a href="https://medium.com/@ajaysaiux" target="_blank" className={styles.link}>Medium →</a>
         </div>
       </div>
     </section>
