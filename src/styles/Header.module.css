@@ -2,7 +2,7 @@
 
 .header {
     display: flex;
-    padding: 10px 34px;
+    padding: 10px 0;
     justify-content: space-between;
     align-items: center;
     align-self: stretch;
@@ -14,7 +14,7 @@
 
 .headerContainer {
     display: flex;
-    padding: 12px;
+    padding: 12px 0;
     justify-content: center;
     align-items: center;
     gap: 10px;

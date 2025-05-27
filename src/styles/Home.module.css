@@ -8,13 +8,13 @@
 .fullcontainer {
   max-width: 1240px;
   width: 100%;
-  padding: 24px 0;
+  padding: 24px 40px;
   position: absolute;
 }
 
 .work {
   display: flex;
-  padding: 100px 40px;
+  padding: 100px 0;
   flex-direction: column;
   align-items: flex-start;
   gap: 80px;
