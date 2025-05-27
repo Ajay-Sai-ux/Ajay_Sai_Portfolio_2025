@@ -18,12 +18,12 @@ const Hero = () => {
           <h1 className={styles.title}>
             <span className={styles.primaryText}>I’m Ajay Sai — </span>
             <i>product designer at</i>
-            <br />
+            <br className={styles.break} />
             <span className={styles.primaryText}>Worktual.</span>
             <span className={styles.accentGreen}> ✦ </span>
             <span className={styles.primaryText}> I design,</span>
             <span className={styles.primaryText}> animate,</span>
-            <br />
+            <br className={styles.break} />
             <span className={styles.primaryText}> write,</span>
             <span className={styles.primaryText}> and code</span>
             <span className={styles.accentOrange}> ✽</span>

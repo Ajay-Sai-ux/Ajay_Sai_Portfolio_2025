@@ -1,22 +1,22 @@
 .projectEntry {
   display: flex;
   flex-direction: column;
-  gap: 140px;
+  gap: 40px;
   align-items: flex-start;
   width: 100%;
 }
 
-.projectContent {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  width: 100%;
+@media (max-width: 480px) {
+    .projectHeader {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
 }
 
 .projectHeader {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  gap: 24px;
   width: 100%;
 }
 

@@ -30,6 +30,15 @@
   align-items: center;
 }
 
+@media (max-width: 480px) {
+  .contactLinks {
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+  }
+  
+}
+
 .link {
   color: #78716c;
   font-family: "Work Sans", sans-serif;
@@ -41,4 +50,5 @@
 
 .link:hover {
   color: #1c1917;
+  text-decoration: underline;
 }

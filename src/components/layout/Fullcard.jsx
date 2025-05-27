@@ -6,19 +6,22 @@ const Fullcard = () => {
 
   return (
     <div className={styles.projectEntry}>
-      <div className={styles.projectContent}>
         <div className={styles.projectHeader}>
+
           <div className={styles.projectTitleGroup}>
             <div className={styles.projectTitle}>Worktual Contact Center</div>
             <div className={styles.projectDate}>Sept 2024 - Jan 2025</div>
           </div>
+
           <div className={styles.projectDescription}>
             <div className={styles.projectSummary}>
               Optimized the voice configuration to help consumer and enterprise
               users find what they need quickly, confidently, and intuitively
             </div>
           </div>
+
         </div>
+        
         <div className={styles.projectImageWrapper}>
           {/* <Image
             className={styles.projectImage}
@@ -28,7 +31,6 @@ const Fullcard = () => {
             height={345}
           /> */}
         </div>
-      </div>
     </div>
   );
 };

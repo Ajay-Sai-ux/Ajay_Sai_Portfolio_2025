@@ -12,6 +12,13 @@
   position: absolute;
 }
 
+@media (max-width: 480px) {
+  .fullcontainer {
+    padding: 24px 20px;
+  }
+  
+}
+
 .work {
   display: flex;
   padding: 100px 0;
