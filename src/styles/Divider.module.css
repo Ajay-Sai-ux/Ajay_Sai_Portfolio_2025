@@ -1,0 +1,6 @@
+.divider {
+    border-width: .5px;
+    border-color: rgb(238, 238, 238);
+    border-style: solid;
+    width: 100%;
+}

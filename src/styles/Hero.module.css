@@ -1,0 +1,64 @@
+.heroSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    padding: 9rem 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .heroSection {
+        padding: 5rem 1.25rem;
+    }
+}
+
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    width: 100%;
+}
+
+.profileImage {
+    border-radius: 70px;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.title {
+    font-size: 44px;
+    color: #1c1c1c;
+
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+
+.primaryText {
+    color: #1c1c1c;
+}
+
+.accentGreen {
+    color: #39bdb6;
+}
+
+.accentOrange {
+    color: #ff8130;
+}
+
+.buttonGroup {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    width: 100%;
+}

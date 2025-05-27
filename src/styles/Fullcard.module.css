@@ -1,0 +1,78 @@
+.projectEntry {
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.projectContent {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.projectHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.projectTitleGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.projectTitle {
+  color: #1c1917;
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  line-height: 130%;
+  font-weight: 400;
+}
+
+.projectDate {
+  color: #ff8130;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+  font-weight: 500;
+}
+
+.projectDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 1;
+}
+
+.projectSummary {
+  color: #333;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  line-height: 140%;
+  font-weight: 400;
+}
+
+.projectImageWrapper {
+  background: #39bdb6;
+  border-radius: 28px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.projectImage {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
