@@ -125,3 +125,9 @@
     left: 30px;
   }
 }
+
+@media (max-width: 480px) {
+  .projectImageWrapper {
+    height: 360px;
+  }
+}
