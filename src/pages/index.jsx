@@ -1,3 +1,4 @@
+import React, { useRef } from "react";
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/layout/Header";
@@ -7,6 +8,13 @@ import ContactSection from "@/components/sections/ContactSection";
 import WorkSection from "@/components/sections/WorkSection";
 
 export default function Home() {
+  const workRef = useRef(null);
+  const contactRef = useRef(null);
+
+  const scrollTo = (ref) => {
+    ref.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       <Head>
@@ -16,21 +24,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="">
+      <div>
         <main className={styles.main}>
           <div className={styles.fullcontainer}>
+            <Header onWorkClick={() => scrollTo(workRef)} onContactClick={() => scrollTo(contactRef)} />
 
-            <Header />
             <Hero />
 
             <Divider />
 
-            <WorkSection />
+            <div ref={workRef}>
+              <WorkSection />
+            </div>
 
             <Divider />
 
-            <ContactSection />
-            
+            <div ref={contactRef}>
+              <ContactSection />
+            </div>
           </div>
         </main>
       </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "@/styles/Header.module.css";
 
-const Header = () => {
+const Header = ({ onWorkClick }) => {
 
   return (
     <header className={styles.header}>
@@ -11,9 +11,8 @@ const Header = () => {
       </div>
 
       <nav className={styles.nav}>
-        <a href="#works">Works</a>
+        <a href="#works" onClick={onWorkClick}>Works</a>
         <a href="#about">About</a>
-        <a href="#resume">Resume</a>
       </nav>
 
     </header>
