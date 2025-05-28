@@ -2,7 +2,7 @@ import React from "react";
 import styles from "@/styles/Fullcard.module.css";
 import Image from "next/image";
 
-const Fullcard = () => {
+const Fullcard = ({ src, alt, width, height}) => {
 
   return (
     <div className={styles.projectEntry}>
@@ -23,13 +23,13 @@ const Fullcard = () => {
         </div>
         
         <div className={styles.projectImageWrapper}>
-          {/* <Image
+          <Image
             className={styles.projectImage}
-            src="/favicon.ico"
-            alt="Worktual Contact Center Screenshot"
-            width={781}
-            height={345}
-          /> */}
+            src={src}
+            alt={alt}
+            width={width}
+            height={height}
+          />
         </div>
     </div>
   );

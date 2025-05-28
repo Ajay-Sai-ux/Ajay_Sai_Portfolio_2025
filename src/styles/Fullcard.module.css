@@ -63,14 +63,20 @@
 }
 
 .projectImage {
+  object-position: top;
   position: absolute;
   top: 55px;
-  left: 50%;
-  transform: translateX(-50%);
-  object-fit: cover;
 }
 
 
+
+
+@media (max-width: 910px) {
+  .projectImage {
+    top: 40px;
+    left: 40px;
+  }
+}
 
 @media (max-width: 720px) {
     .projectHeader {
@@ -78,4 +84,9 @@
         flex-direction: column;
         align-items: start;
     }
+
+    .projectImage {
+    top: 30px;
+    left: 30px;
+  }
 }

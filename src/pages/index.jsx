@@ -3,8 +3,8 @@ import styles from "@/styles/Home.module.css";
 import Header from "@/components/layout/Header";
 import Hero from "@/components/sections/Hero";
 import Divider from "@/components/layout/Divider";
-import Fullcard from "@/components/layout/Fullcard";
 import ContactSection from "@/components/sections/ContactSection";
+import WorkSection from "@/components/sections/WorkSection";
 
 export default function Home() {
   return (
@@ -25,23 +25,7 @@ export default function Home() {
 
             <Divider />
 
-            <section className={styles.work}>
-
-              <div className={styles.workHeaderContainer}>
-                <div className={styles.workHeader}>Selected work ↓</div>
-                <div className={styles.workSubHeader}>
-                  Reach out for more detials
-                </div>
-              </div>
-
-              <div className={styles.workWrapper}>
-              <Fullcard />
-              <Fullcard />
-              <Fullcard />
-              <Fullcard />
-              </div>
-
-            </section>
+            <WorkSection />
 
             <Divider />
 
