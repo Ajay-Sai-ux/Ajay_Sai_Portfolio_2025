@@ -35,7 +35,7 @@ const Hero = () => {
           </h1>
           
           <div className={styles.buttonGroup}>
-            <PrimaryButton />
+            <PrimaryButton link={"https://drive.google.com/file/d/1LruuxojQ5lzJ1JA6EGXhg8ksZCqDmQWQ/view?usp=sharing"} />
             <SecondaryButton />
           </div>
         </div>
