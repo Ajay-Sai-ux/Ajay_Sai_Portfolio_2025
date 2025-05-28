@@ -28,14 +28,17 @@ export default function Home() {
       <div>
         <main className={styles.main}>
           <div className={styles.fullcontainer}>
-            <Header onWorkClick={() => scrollTo(workRef)} onContactClick={() => scrollTo(contactRef)} />
+            <Header
+              onWorkClick={() => scrollTo(workRef)}
+              onContactClick={() => scrollTo(contactRef)}
+            />
 
             <Hero />
 
             <Divider />
 
             <div ref={workRef}>
-              <WorkSection />
+              <WorkSection link={"https://medium.com/@ajaysaiux/why-86-of-users-struggled-with-voice-setup-and-how-were-solving-it-f4c44f542bf9"} />
             </div>
 
             <Divider />
@@ -43,6 +46,7 @@ export default function Home() {
             <div ref={contactRef}>
               <ContactSection />
             </div>
+
           </div>
         </main>
       </div>

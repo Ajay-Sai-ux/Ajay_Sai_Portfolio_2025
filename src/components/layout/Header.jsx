@@ -12,7 +12,7 @@ const Header = ({ onWorkClick }) => {
 
       <nav className={styles.nav}>
         <a onClick={onWorkClick}>Works</a>
-        <a href="#about">About</a>
+        <a href="#about">About (coming soon)</a>
       </nav>
 
     </header>

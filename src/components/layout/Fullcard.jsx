@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "@/styles/Fullcard.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
-const Fullcard = ({ src, alt, width, height}) => {
+const Fullcard = ({ src, alt, width, height,link}) => {
 
   return (
-    <div className={styles.projectEntry}>
+    <Link href={link} className={styles.projectEntry} target="_blank" rel="noopener noreferrer">
         <div className={styles.projectHeader}>
 
           <div className={styles.projectTitleGroup}>
@@ -31,7 +32,7 @@ const Fullcard = ({ src, alt, width, height}) => {
             height={height}
           />
         </div>
-    </div>
+    </Link>
   );
 };
 
